@@ -1,0 +1,171 @@
+body{ background-color: black;}
+html, body {  margin: 0; padding: 0; height: 100%; text-align: center; align-items: center; justify-content: center;}
+a {text-decoration: none;}
+li {list-style-type: none;}
+
+h1,h2,h3, a {font-family: 'Roboto', sans-serif; font-weight: 500; color: whitesmoke; text-transform: uppercase;}
+h2 {color: whitesmoke;}
+h3 {font-size: 40px; padding-top: 8%; margin-bottom: 5px;}
+h4 , p{font-family: 'Roboto Slab' , sans-serif ; color: whitesmoke;}
+
+hr {width: 38px; height: 3px; background: whitesmoke; border: 0; margin: 0 auto 40px auto;}
+h2 ,li ,#logo, input{transition: all 400ms; -moz-transition: all 400ms; -webkit-transition: all 400ms; -o-transition: all 400ms; -ms-transition: all 400ms; transition: all 400ms;}
+/* Header*****/
+ 
+header{
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: transparent;
+    
+    
+    z-index: 1;
+}
+#logo{
+    width: 140px;
+    float: left;
+    margin: 0 0 0 0;
+}
+ #logo img{
+    width: 90px;
+    height: 70px;
+ }
+ #logo:hover{
+    opacity: 0.5;
+ }
+
+ header nav {
+    float:right;
+    margin: 10px 10px 0 0;
+ }
+
+ header nav ul li{
+    float: left;
+    margin-right: 20px;
+ }
+
+ header nav ul li a{
+    font-size: 16px;
+ }
+
+ header nav ul li:hover{
+    padding-top: 4px;
+
+ }
+
+ /* Home*******************/
+
+ #Home{
+    background: url(/img/landing.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    
+ }
+
+
+ #Home h1 {
+    margin: 250px auto 0 auto;
+    font-size: 80px;
+    text-shadow: 0px 10px 15px rgba(0,0,0, 1);
+ }
+ #Home h2{
+    margin: 0 auto 0 auto;
+    font-size: 25px;
+    text-shadow: 0px 10px 15px rgba(0,0,0, 1);
+ }
+#Home h2:hover{
+    text-decoration: underline;
+}
+
+.pfeil{
+    height: 30px;
+    margin-top: 50px;
+    
+    
+}
+.pfeil:hover{
+   height: 35px;
+}
+
+ /* Anmeldung****************/
+
+ #anmeldung{
+   min-height: 60%;
+   margin-top: 110px;
+   display: flex;
+   justify-content: center;
+ }
+
+.box{
+   width: 420px;
+   height: 50px;
+}
+
+
+.input-box{
+   background: transparent;
+   text-align: center;
+   margin: 30px 0;
+   width: 100%;
+   height: 100%;
+   
+}
+
+.input-box input{
+   width: 100%;
+   height: 100%;
+   margin-top: 3px;
+   border-radius: 15px;
+   outline: none;
+   text-align: center;
+   color: black;
+   border: none;
+   font-weight: 600;
+   font-size: 16px;
+}
+
+.btn{
+   width: 400px; 
+   height: 100%;
+   margin-top: 110px;
+   margin-left: 14px;
+   border-radius: 15px;
+   outline: none;
+   background-color: white;
+   color: black;
+   border: none;
+   font-weight: 600;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.input-box input:hover{
+   padding-top: 2px;
+   opacity: 0.9;
+}
+
+
+.btn:hover{
+   opacity: 0.9;
+   padding-top: 2px;
+}
+
+.input-box input::placeholder{
+   color: black;
+   background-color: white;
+}
+
+
+
+#sponsoren{
+   min-height: 100%;
+}
+
+#kontakt{
+   min-height: 60%;
+}
+
